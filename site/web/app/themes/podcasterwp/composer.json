@@ -1,0 +1,29 @@
+{
+  "name": "eriteric/podcasterwp",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "Starter theme for podcasters. Based on Roots, HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
+  "homepage": "https://github.com/eriteric/PodcasterWP",
+  "authors": [
+    {
+      "name": "Eric Iffland",
+      "email": "hello@imagineiff.com",
+      "homepage": "http://imagineiff.com"
+    },
+    {
+      "name": "Dean Haddock",
+      "email": "dean@criticalmath.com",
+      "homepage": "http://criticalmath.com"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/eriteric/PodcasterWP/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}
