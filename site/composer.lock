@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3700ba005314f70d21f0a86e59dc0ca0",
-    "content-hash": "9b139efe939394c4a74f80b8764a6925",
+    "hash": "6905aa4cccf5f0378bece5f29bd832cb",
+    "content-hash": "1420b2f8c9fddb34a13560c05c7e2aab",
     "packages": [
         {
             "name": "composer/installers",
@@ -282,12 +282,34 @@
                 "environment"
             ],
             "time": "2015-10-28 18:53:35"
+        },
+        {
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta9",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/rest-api": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
